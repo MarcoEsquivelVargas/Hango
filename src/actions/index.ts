@@ -14,7 +14,7 @@ export const handleCreateUser = async (formData: FormData) => {
   const variables = {
     input: {
       ...formDataObject,
-      phone: '+52' + formDataObject.phone
+      phone: '+506' + formDataObject.phone
     }
   }
 
