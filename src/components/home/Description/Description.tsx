@@ -31,9 +31,10 @@ export const Description = () => {
           />
         </div>
       </button>
+      <br/>
       <div className={styles.Description__text}>
-        <h2>Bring the future today</h2>
-        <p>Hango: Your Gateway to Tomorrow&apos;s Tech! Dive into a world of cutting-edge gadgets and gear. Stay ahead of the curve and redefine your digital lifestyle with us.</p>
+        <h2>Enamorate de nuestros productos</h2>
+        <p>Hango: Puedes ver nuestras tendencias, tenemos muchas opciones para ti.</p>
       </div>
     </section>
   )

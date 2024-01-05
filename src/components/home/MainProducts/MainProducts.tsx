@@ -7,7 +7,7 @@ export const MainProducts = async () => {
 
   return (
     <section className={styles.MainProducts}>
-      <h3>✨ New products released!</h3>
+      <h3>✨ Nuestros productos en tendencias!</h3>
       <div className={styles.MainProducts__grid}>
         {products?.map((product: {
           id: string,

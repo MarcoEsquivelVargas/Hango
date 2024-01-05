@@ -8,7 +8,7 @@ export default async function Layout({ children }: { children: React.ReactNode }
 
   return (
     <main className={styles.StoreLayout}>
-      <h1>Explore</h1>
+      <h1>Explore nuestras categorias de productos</h1>
       <nav>
         <ul className={styles.StoreLayout__list}>
           {

@@ -14,18 +14,18 @@ export const Header = async () => {
         <ul className={styles.Header__list}>
           <li>
             <Link href="/">
-              Home
+              Inicio
             </Link>
           </li>
           <li>
             <Link href="/store">
-              Store
+              Tienda
             </Link>
           </li>
         </ul>
       </nav>
       <div className={styles.Header__user}>
-        {customer?.firstName ? (<Link href="/my-account">Hola! {customer.firstName}</Link>) : (<Link href="/login">Login</Link>)}
+        {customer?.firstName ? (<Link href="/my-account">Bienvenido! {customer.firstName}</Link>) : (<Link href="/login">Login</Link>)}
         <NoSSRShoppingCart />
       </div>
     </header>)

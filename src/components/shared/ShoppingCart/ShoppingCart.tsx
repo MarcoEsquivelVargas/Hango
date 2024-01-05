@@ -51,7 +51,7 @@ export default function ShoppingCart() {
             cart.map(item => (<ShoppingCartItem key={item.id} item={item} />))
           }
           <button onClick={handleBuy}  className={styles.ShoppingCart__buyButton} disabled={isBuying}>
-            Buy
+            Comprar
           </button>
         </div>
       )}

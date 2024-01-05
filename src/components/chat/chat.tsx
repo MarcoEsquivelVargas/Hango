@@ -15,18 +15,18 @@ export const Chat = (props: { agent: string }) => {
 
   return (
     <main className={styles.Chat} >
-      <h1 className={styles.Chat__title}>Ask anything, buy everything</h1>
+      <h1 className={styles.Chat__title}>Pregunta algo relacionado a la tienda</h1>
       <form onSubmit={handleSubmit} className={styles.Chat__form}>
         <input
           className={styles.Chat__input}
           value={input}
           onChange={handleInputChange}
-          placeholder="What would you like to buy?"
+          placeholder="¿Qué te gustaría comprar?"
         />
         <button
           className={styles.Chat__button}
         >
-          Send
+          Enviar
         </button>
       </form>
       <section className={styles.Chat__messages}>

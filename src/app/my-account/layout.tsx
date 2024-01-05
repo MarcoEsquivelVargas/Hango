@@ -12,6 +12,7 @@ export default async function MyAccountLayout(props: MyAccountLayoutProps) {
       {props.children}
       <main className={styles.MyAccount__panels}>
         {props.userInfo}
+        <br/>
         {props.ordersInfo}
       </main>
     </div>
