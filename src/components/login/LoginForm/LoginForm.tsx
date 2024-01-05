@@ -23,7 +23,8 @@ export const LoginForm = () => {
         <input type="password" name="password" placeholder="Contraseña" />
         <input type="submit" name="submit" value="Iniciar Sesión" />
       </form>
-      <Link href="/signup">Registrarme</Link>
+      <br/>
+      <Link href="/signup" className={styles.NewAccountForm__form__button}>Registrarme</Link>
     </div>
   );
 }
